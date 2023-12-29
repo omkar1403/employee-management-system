@@ -40,22 +40,14 @@ export default function Home() {
     </div>
     <div className='px-3 pt-2 pb-3 border shadow-sm w-25'>
       <div className='text-center pb-1'>
-        <h4>Employee</h4>
+        <h4>Student</h4>
       </div>
       <hr />
       <div className=''>
         <h5>Total: {employeeCount}</h5>
       </div>
     </div>
-    <div className='px-3 pt-2 pb-3 border shadow-sm w-25'>
-      <div className='text-center pb-1'>
-        <h4>Salary</h4>
-      </div>
-      <hr />
-      <div className=''>
-        <h5>Total: {salary}</h5>
-      </div>
-    </div>
+   
   </div>
 
 {/*List of admins*/}
